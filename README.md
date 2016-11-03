@@ -4,6 +4,6 @@ Under linux follow https://github.com/dotnet/coreclr/blob/master/Documentation/i
 
 To compile the c file : gcc -shared -o ffi_test.so ffi_test.c
 
-dnu restore
+dotnet restore
 
-LD_LIBRARY_PATH=.  dnx run
+LD_LIBRARY_PATH=. dotnet run
